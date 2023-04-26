@@ -9,9 +9,5 @@ def open_and_close_file(file_path):
     Args:
         file_path: путь до файла
     """
-    open = bad_open
-    ###
-    # Добавьте свой код сюда
-    ###
-    f = open(file_path, 'r')
-    f.close()
+    with open('./description.md', 'r') as f:
+        f.close()
