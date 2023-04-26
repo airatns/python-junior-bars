@@ -12,3 +12,8 @@ def transmit_to_space(message):
 
 
 print(transmit_to_space("Test message"))
+
+# Test message
+# None
+# В первый раз сработал print() внутри функции data_transmitter().
+# А во второй раз вернулся None, т.к. возврата из функции не было.
